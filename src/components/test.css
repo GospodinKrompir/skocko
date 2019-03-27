@@ -1,0 +1,87 @@
+#container {
+    background-color: rgb(32, 32, 32);
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  
+  .iblock {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  .emptySlot {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(88, 88, 88);
+  }
+  
+  #znak1,
+  .znak1 {
+    background-color: yellow;
+  }
+  
+  #znak2,
+  .znak2 {
+    background-color: rgb(0, 196, 0);
+  }
+  
+  #znak3,
+  .znak3 {
+    background-color: black;
+  }
+  
+  #znak4,
+  .znak4 {
+    background-color: red;
+  }
+  
+  #znak5,
+  .znak5 {
+    background-color: purple;
+  }
+  
+  #znak6,
+  .znak6 {
+    background-color: rgb(253, 159, 175);
+  }
+  
+  .slot {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  ul {
+    display: inline-block;
+    padding: 0;
+  }
+  
+  #timer {
+    display: inline-block;
+    width: 10px;
+    background-color: gray;
+    border: 1px solid brown;
+  }
+  
+  .krug {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(88, 88, 88);
+  }
+  
+  .block {
+    pointer-events: none;
+  }
+  
+  .best {
+    background-color: red;
+  }
+  
+  .good {
+    background-color: yellow;
+  }
+
+  #x, #y {width: 50px}
+  
