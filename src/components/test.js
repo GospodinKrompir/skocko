@@ -11,8 +11,9 @@ class Test extends Component {
         this.inputY = React.createRef();
     }
     getInitialState = () => {
-        this.setState({ x: 0, y: 0 })
-        this.genNiz = []
+        this.setState({ x: 0, y: 0 });
+        this.genNiz = [];
+        this.guesses=0;
     }
     matrica = () => {
         if (this.state.x === 0) {
